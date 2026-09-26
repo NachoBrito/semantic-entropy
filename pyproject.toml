@@ -1,0 +1,21 @@
+[project]
+name = "semantic-entropy"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Nacho Brito", email = "soynachobrito@gmail.com" }
+]
+requires-python = ">=3.14"
+dependencies = [
+    "llama-cpp-python>=0.3.35",
+    "torch>=2.0.0",
+    "transformers>=4.30.0",
+]
+
+[project.scripts]
+semantic-entropy = "semantic_entropy:main"
+
+[build-system]
+requires = ["uv_build>=0.12.7,<0.13.0"]
+build-backend = "uv_build"
