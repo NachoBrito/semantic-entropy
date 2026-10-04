@@ -1,3 +1,5 @@
+This is the companion code for my [article about the Semantic Entropy concept](https://www.nachobrito.es/artificial-intelligence/semantic-entropy/). 
+
 # Semantic Entropy
 
 A minimal implementation of the black-box discrete **Semantic Entropy** method for detecting LLM hallucinations, based on:
